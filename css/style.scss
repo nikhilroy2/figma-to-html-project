@@ -1,0 +1,78 @@
+// ......... Global ...... 
+*{
+    box-sizing: border-box;
+}
+ul,li,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.position_center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cursor_pointer{
+    cursor: pointer;
+}
+// ......... Global ...... End
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.text_main{
+    color: #EA650F;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+@media (max-width: 600px){
+    .navbar-brand{
+        align-self: flex-start;
+    }
+    .navbar-brand img,
+    .footer_logo,
+    .navbar-brand a{
+        width: 100px;
+        display: inline-block;
+        height: 100%;
+    }
+}
+
+// ....... section 1 .........
+.section_1{
+    height: 500px;
+    background: url('../img/Subtract.png') center/cover;
+}
+// ....... section 1 .........End
+
+
+// ............. footer............ 
+footer{
+    background: #EFEFEF;
+}
+footer .list_contact{
+    i{
+        background: #EA650F;
+        padding: 8px;
+        display: inline-block;
+        border-radius: 50% 0 50% 50%;
+        color: #fff;
+        font-size: 12px;
+    }
+}
+// ............. footer............ End
